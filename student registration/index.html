@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="student.css">
+     <script src="main.js" defer></script>
+</head>
+<body>
+     <div class="container">
+        <h1>Student Registration</h1>
+        <!-- 1. Registration Form -->
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="course" placeholder="Course" required>
+            <button type="submit">Register Student</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Registered Students</h2>
+        <!-- 3. Display registered students dynamically -->
+        <ul id="studentList">
+            <!-- List items will be added here by JS -->
+        </ul>
+    </div>
+</body>
+</html>
